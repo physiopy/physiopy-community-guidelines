@@ -9,4 +9,10 @@ Best Practices for Collecting Physiological Data
 .. toctree::
    :maxdepth: 1
 
-   best_practices.md
+   physio_importance.md
+   physiopy_community.md
+   phys_set_up.md
+   collect_phys.md
+   process_phys.md
+   analyses_phys.md
+   references.md
