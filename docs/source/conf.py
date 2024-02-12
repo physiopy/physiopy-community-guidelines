@@ -15,9 +15,9 @@ import sys
 
 from sphinx_gallery.sorting import FileNameSortKey
 
-import physiopy_community_guidelines
-
-sys.path.insert(0, os.path.abspath(".."))
+sys.path.insert(0, os.path.abspath("../.."))
+from ._version import get_versions
+__version__ = get_versions()["version"]
 
 
 # -- Project information -----------------------------------------------------
@@ -30,11 +30,11 @@ author = "The Physiopy Community"
 sys.path.insert(0, os.path.abspath(os.path.pardir))
 
 # The short X.Y version
-version = physiopy_community_guidelines.__version__
+version = __version__
 # The full version, including alpha/beta/rc tags
-release = physiopy_community_guidelines.__version__
-package = physiopy_community_guidelines.__name__
-gh_url = "https://github.com/MIPLabCH/physiopy-community-guidelines"
+release = __version__
+package = "Physiopy Community Guidelines"
+gh_url = "https://github.com/physiopy/physiopy-community-guidelines"
 
 # -- General configuration ---------------------------------------------------
 
