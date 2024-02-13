@@ -1,1 +1,13 @@
-numpy>=1.9.3
+furo
+memory-profiler
+myst-parser
+numpydoc
+sphinx>=2.0
+sphinx-argparse
+sphinxcontrib-apidoc
+sphinxcontrib-bibtex
+sphinx-copybutton
+sphinx-design
+sphinx-gallery
+sphinx-issues
+sphinx_rtd_theme
