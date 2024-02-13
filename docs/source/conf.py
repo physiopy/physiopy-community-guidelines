@@ -101,6 +101,7 @@ html_show_sphinx = False
 html_static_path = ["_static"]
 html_css_files = [
     "css/style.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
 ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
