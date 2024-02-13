@@ -15,9 +15,8 @@ import sys
 
 from sphinx_gallery.sorting import FileNameSortKey
 
-sys.path.insert(0, os.path.abspath("../.."))
-from ._version import get_versions
-__version__ = get_versions()["version"]
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.path.pardir, os.path.pardir)))
+from docs import __version__
 
 
 # -- Project information -----------------------------------------------------
@@ -26,8 +25,6 @@ project = "Physiopy Community Guidelines"
 copyright = "2019-2024, The Physiopy Community"
 author = "The Physiopy Community"
 
-# Import project to get version info
-sys.path.insert(0, os.path.abspath(os.path.pardir))
 
 # The short X.Y version
 version = __version__
@@ -207,10 +204,10 @@ numpydoc_validation_exclude = {  # regex to ignore during docstring check
 sphinx_gallery_conf = {
     "backreferences_dir": "generated/backreferences",
     "doc_module": (f"{package}",),
-    "examples_dirs": ["../tutorials"],
+    "examples_dirs": [],  # ["../tutorials"],
     "exclude_implicit_doc": {},  # set
     "filename_pattern": r"\d{2}_",
-    "gallery_dirs": ["generated/tutorials"],
+    "gallery_dirs": [],  # ["generated/tutorials"],
     "line_numbers": False,
     "plot_gallery": True,
     "reference_url": {f"{package}": None},

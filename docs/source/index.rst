@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Best Practices for Collecting Physiological Data
-================================================
+Community Practices for Collecting Physiological Data
+=====================================================
 
 .. toctree::
    :caption: Community Practices
