@@ -13,11 +13,11 @@ Community Practices for Collecting Physiological Data
 |All Contributors|
 
 
-.. admonition:: Important: Current Version
+.. admonition:: Current Version
    :class: version
 
    You are currently reading version |version|.
-   The latest version is |Latest version|.
+   The latest version is |Latest version inline|.
 
 
 .. note::
@@ -42,6 +42,11 @@ Community Practices for Collecting Physiological Data
 
 .. |All Contributors| image:: https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat
    :target: #contributors
+
+
+.. |Latest version inline| image:: https://img.shields.io/github/v/release/physiopy/physiopy-community-guidelines?style=flat-square&label=%20&color=%2300bfa5
+   :target: https://physiopy-community-guidelines.readthedocs.io/en/latest/
+
 
 
 .. dropdown:: Full Index
