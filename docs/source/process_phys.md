@@ -35,7 +35,7 @@ Cardiac contractions can influence fMRI signals due to the pulsatility generatin
 
 * Respiratory volume per time (RVT) and peak-based models
     * About: RVT and peak-based models utilize peak detection on the respiratory trace to estimate the rate and depth of breaths, which enables an indirect estimation of gas volume exchange (Birn et al., 2006). These models rely on a respiratory response function (RRF) derived from empirical observations, considering inter-individual differences (Birn et al., 2008). They are advantageous in capturing time-delayed effects interacting with CO2 levels. 
-    * Cons:peak detection in these models may require manual effort, and efforts should be made to automate this process.
+    * Cons: peak detection in these models may require manual effort, and efforts should be made to automate this process.
 
 * Respiration variation (RV) and other models (standard deviation/signal property based)
     * About: RV (standard deviation of the respiratory trace over a window) (Chang and Glover, 2009) and other signal property-based models such as ENV (envelope of the respiratory trace over a window) (Power et al., 2018) provide an alternative to RVT-based approaches. These models do not rely on peak detection, reducing the need for manual intervention.
