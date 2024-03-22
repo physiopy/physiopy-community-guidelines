@@ -55,8 +55,8 @@ Community Practices for Collecting Physiological Data
       :caption: Community Practices
       :maxdepth: 2
 
+      Community Practices Meetings <physiopy_community>
       Motivation <physio_importance>
-      Community <physiopy_community>
       Setup <phys_set_up>
       Data Collection <collect_phys>
       Data Processing <process_phys>
