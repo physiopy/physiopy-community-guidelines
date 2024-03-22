@@ -1,4 +1,4 @@
-# 1. What is the importance of acquiring physiological data both for noise and signals of interest?
+# 2. What is the importance of acquiring physiological data both for noise and signals of interest?
 
 *Acquiring physiological data during neuroimaging experiments is crucial for enhancing the quality and interpretability of neuroimaging data. The main motivations are:*
 
