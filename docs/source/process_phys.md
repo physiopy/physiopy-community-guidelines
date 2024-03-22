@@ -16,12 +16,11 @@ Cardiac contractions can influence fMRI signals due to the pulsatility generatin
 * RETROICOR (Retrospective Image Correction) and phase-based models
     * About: this method relies on modeling cardiac (and respiratory) phases based on the recorded cardiac data, accounting for quasi-periodic patterns using a low-order Fourier series (Glover et al., 2000). It is a more specific denoising approach than others. 
     * Cons: Slice-wise regressors are more complicated to deal with and sometimes have a more negligible effect than other correction techniques. 
-    * Note: Other phase based algorithms have expanded from RETROICOR as described in Caballero-Gaudes and Reynolds 2017. One such extension is DRIFTER (Särkkä et al., 2012). 
+    * Note: Other phase-based algorithms have expanded from RETROICOR as described in Caballero-Gaudes and Reynolds 2017. One such extension is DRIFTER (Särkkä et al., 2012). 
 
 * Cardiac Rate (CR) and peak-based models
     * About: accounting for cardiac-related variability may improve the reliability of fMRI analysis, since low-frequency cardiac rate fluctuations have been shown to explain BOLD signal variance (Shmueli et al., 2007).This may be performed by using time-shifted cardiac rate regressors (across a range of delays) and/or by convolving a cardiac rate time-course with the cardiac response function (CRF) (Chang et al., 2009). Usually, the peak detection step employed to compute the cardiac rate may be done using either the EEG (heart rate) or the ECG (pulse rate).
     * Cons: peak-based models are dependent on the quality of the peak detection. Moreover, the established CRF may not hold for all population types or tasks. Furthermore, since heart rate variability (HRV) is closely linked to autonomic function, it may also covary with the functional connectivity of regions involved in arousal (Chang et al., 2013). Therefore, regressing out heart rate- based time-courses should be done cautiously, as it may remove signals of interest and not only non-neuronal information.
-    * Note: Other phase-based algorithms have expanded from RETROICOR as described in Caballero-Gaudes and Reynolds 2017. One such extension is DRIFTER (Särkkä et al., 2012). 
 
 ## Respiration: Ventilation
 **There are three primary ways by which breathing can influence the fMRI signals:**  
