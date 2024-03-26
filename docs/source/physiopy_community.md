@@ -12,10 +12,10 @@ Links to the lab’s websites of the members of our community are listed below i
 * Neuroimaging & Brain Dynamics Lab (Nashville, TN) (https://www.cchanglab.net/)
 
 ## What type of physiological data does the Physiopy Community work with?
-The most common types of physiological data acquired in MRI analysis within members of our community are cardiac (photoplethysmography (PPG) and electrocardiogram (ECG)) and respiration, either ventilation (respiratory belt) and/or gas concentration (particularly expired CO2). 
+The most common types of physiological data acquired within members of our community are cardiac (photoplethysmogram (PPG) and electrocardiogram (ECG)) and respiration, either ventilation (respiratory belt) and/or gas concentration (particularly expired CO2). Typically, these are obtained simultaneously with the acquisition of functional magnetic resonance imaging (fMRI) data, which is the most widely used neuroimaging technique in our community. However, in certain instances, electroencephalography (EEG) is also recorded.
 
-## When do we meet?
-We meet virtually on zoom the third Thursday of every month at 16:00 UTC. To join please email physiopy.community@gmail.com for the link.
+## When do we meet and how to get involved?
+We meet virtually on zoom the third Thursday of every month at 16:00 UTC. To receive emails about our monthly meetings and planning surveys for topics to be covered please email physiopy.community@gmail.com. We are always looking for new members and contributors so if interested, please join us!
 
-## How to get involved?
-To receive emails about our monthly meetings and planning surveys for topics to be covered please email physiopy.community@gmail.com.
+
+
