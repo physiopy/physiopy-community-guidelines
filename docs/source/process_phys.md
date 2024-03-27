@@ -2,9 +2,9 @@
 
 Ideally, you have recorded physiological data throughout the entire scan session and trigger data to identify when scanning occurred. Furthermore, depending on the time of physiological and neuroimaging signals that you collected, you may have to account for possible delays between them, both technical and physiological.
 
-It is useful to organize and standardize the format of your physiological data files along with any neuroimaging files acquired concurrently. Phys2bids can be used to organize the various physiological data traces that you have collected. With this tool, your data will have the appropriate BIDS labels to describe physiological information. As a sanity check, you may quickly inspect the phys2bids output plot when called with the `-info` flag to ensure that it matches the type of information and the period you aimed to collect.
+It is useful to organize and standardize the format of your physiological data files along with any neuroimaging files acquired concurrently. `Phys2bids` can be used to organize the various physiological data traces that you have collected. With this tool, your data will have the appropriate BIDS labels to describe physiological information. As a sanity check, you may quickly inspect the `phys2bids` output plot when called with the `-info` flag to ensure that it matches the type of information and the period you aimed to collect.
 
-After this restructuring of the data, there are numerous tools available to process each type of physiological trace, for instance, identifying end-tidal values for O2 and CO2, or phases of the cardiac and respiratory cycles. These data are then further processed via smoothing or convolution to create physiological regressors.
+After this restructuring of the data, there are numerous tools available to process each type of physiological trace, for instance, identifying end-tidal values for O2 and CO2, or phases of the cardiac and respiratory cycles. These data are then further processed via smoothing or convolution with an appropriate response function to create physiological regressors.
 
 In the subsections below, you may find a summary detailing the various methods and guidelines related to the utilization of cardiac and respiratory (ventilation and gas concentration) data in the context of fMRI signals. Each method is accompanied by a description and a brief discussion of its pros and cons. Data-driven methods not based on the measurement of peripheral physiology are presented in a different section.
 
@@ -22,7 +22,7 @@ Cardiac contractions can influence fMRI signals due to the pulsatility generatin
     * Note: Other phase-based algorithms have expanded from RETROICOR as described in Caballero-Gaudes and Reynolds (2017). One such extension is DRIFTER (Särkkä et al., 2012). 
 
 * **Cardiac Rate (CR) and peak-based models**
-    * <ins>About</ins>: accounting for cardiac-related variability may improve the reliability of fMRI analysis, since low-frequency cardiac rate fluctuations have been shown to explain BOLD signal variance (Shmueli et al., 2007).This may be performed by using time-shifted cardiac rate regressors (across a range of delays) and/or by convolving a cardiac rate time-course with the cardiac response function (CRF) (Chang et al., 2009). Usually, the peak detection step employed to compute the cardiac rate may be done using either the ECG (heart rate) or the PPG (pulse rate).
+    * <ins>About</ins>: accounting for cardiac-related variability may improve the reliability of fMRI analysis, since low-frequency cardiac rate fluctuations have been shown to explain BOLD signal variance (Shmueli et al., 2007). This may be performed by using time-shifted cardiac rate regressors (across a range of delays) and/or by convolving a cardiac rate time-course with the cardiac response function (CRF) (Chang et al., 2009). Usually, the peak detection step employed to compute the cardiac rate may be done using either the ECG (heart rate) or the PPG (pulse rate).
     * <ins>Cons</ins>: peak-based models are dependent on the quality of the peak detection. Moreover, the established CRF may not hold for all population types or tasks. Furthermore, since heart rate variability (HRV) is closely linked to autonomic function, it may also covary with the functional connectivity of regions involved in arousal (Chang et al., 2013). Therefore, regressing out heart rate based time-courses should be done cautiously, as it may remove signals of interest and not only non-neuronal information.
 
 ## Respiration: Ventilation
@@ -30,17 +30,17 @@ Cardiac contractions can influence fMRI signals due to the pulsatility generatin
 **There are three primary ways by which breathing can influence the fMRI signals:**  
 1. Breathing often leads to **bulk motion** of the body and head, leading to undesired artifacts in the images. To mitigate these effects, volume registration and motion correction algorithms are typically employed during data preprocessing (Brosch et al. 2002). 
 2. Breathing changes the **chest position** which can influence the success of the shim, continuously changing **B0 homogeneity** throughout the scan and in turn affecting signal amplitude (Brosch et al. 2002, Raj et al. 2001). These effects are also modeled using techniques like RETROICOR.
-3. **Changes in breathing rate and depth can affect the levels of blood gasses**, such as oxygen and carbon dioxide, which can in turn drive vasodilation or vasoconstriction. These vascular changes have a substantial impact on the amplitude of the fMRI signal (Chang and Glover 2009). Respiratory volume per time (RVT) correction (Birn et al. 2008) estimates the change in breathing rate/depth to model these effects.
+3. **Changes in breathing rate and depth can affect the levels of blood gasses**, such as O2 and CO2, which can in turn drive vasodilation or vasoconstriction. These vascular changes have a substantial impact on the amplitude of the fMRI signal (Chang and Glover 2009). Respiratory volume per time (RVT) correction (Birn et al. 2008) estimates the change in breathing rate/depth to model these effects.
 
 ### Model-based approaches <!-- [RESP_DENOISING_210722] -->
 
 * **RETROICOR (Retrospective Image Correction) and phase-based models**
-    * <ins>About</ins>: RETROICOR offers a more specific denoising approach compared to other methods and is complementary to measures such as CO2 (carbon dioxide), RV (respiration volume), and RVT (respiration volume per time) estimations. As this method treats each pixel separately, it has the advantage of preventing the artificial coupling of noise corrections across signal regions. 
+    * <ins>About</ins>: RETROICOR offers a more specific denoising approach compared to other methods and is complementary to measures such as CO2, RV (respiration volume), and RVT (respiratory volume per time) estimations. As this method treats each pixel separately, it has the advantage of preventing the artificial coupling of noise corrections across signal regions. 
     * <ins>Cons</ins>: one drawback of RETROICOR is that slice-wise regressors can be more complicated to handle, and their effects may sometimes be negligible.
 
 * **Respiratory volume per time (RVT) and peak-based models**
     * <ins>About</ins>: RVT and peak-based models utilize peak detection on the respiratory trace to estimate the rate and depth of breaths, which enables an indirect estimation of gas volume exchange (Birn et al., 2006). These models rely on a respiratory response function (RRF) derived from empirical observations, considering inter-individual differences (Birn et al., 2008). They are advantageous in capturing time-delayed effects interacting with CO2 levels. 
-    * <ins>Cons</ins>: peak detection in these models may require manual effort, and efforts should be made to automate this process.
+    * <ins>Cons</ins>: peak detection in these models may require manual effort, and one should try to automate this process.
 
 * **Respiration variation (RV) and other models (standard deviation/signal property based)**
     * <ins>About</ins>: RV (standard deviation of the respiratory trace over a window) (Chang and Glover, 2009) and other signal property-based models such as ENV (envelope of the respiratory trace over a window) (Power et al., 2018) provide an alternative to RVT-based approaches. These models do not rely on peak detection, reducing the need for manual intervention.
@@ -57,15 +57,15 @@ Afterwards, it is necessary to adjust this trace for the **sampling delay.** Eve
 ### Cardiac Pulsation
 
 * **Principal Component Analysis (PCA)**
-    * <ins>About</ins>: Defining multiple spatially uncorrelated nuisance regressors based on the principal component analysis (PCA) decomposition of voxels where no BOLD fMRI signals of neuronal origin are expected to originate (e.g., WM and CSF). The widely-used CompCor approach (Behzadi et al., 2007; Muschelli et al., 2014) defines multiple nuisance regressors from the principal components (PCs) of voxels within WM and CSF in the ventricles.
+    * <ins>About</ins>: Defining multiple spatially uncorrelated nuisance regressors based on the principal component analysis (PCA) decomposition of voxels where no BOLD fMRI signals of neuronal origin are expected to originate (e.g., white matter (WM) and cerebrospinal fluid (CSF)). The widely-used CompCor approach (Behzadi et al., 2007; Muschelli et al., 2014) defines multiple nuisance regressors from the principal components (PCs) of voxels within WM and CSF in the ventricles.
     * <ins>Cons</ins>: An important question for debate is how many principal components (PCs) must be considered in the model. 
 * **Independent Component Analysis (ICA)**
     * <ins>About</ins>: Once the ICA is computed, the basis of these denoising approaches is to first distinguish between independent components (IC) arising from neuronal-related BOLD signal and ICs related to noise sources, and then remove the latter before reconstructing the dataset (Beckmann, 2012, McKeown et al., 2003).
-    * <ins>Cons</ins>: Manual classification of ICs is very time consuming, difficult to reproduce and requires expertise (Kelly Jr. et al., 2010). Automatic classification does help, however, it could mis-classify components and again, it is difficult to discern the number of components you need.
+    * <ins>Cons</ins>: Manual classification of ICs is very time consuming, difficult to reproduce and requires expertise (Kelly Jr. et al., 2010). Automatic classification does help, however, it could misclassify components and again, it is difficult to discern the number of components you need.
 * **Global Signal Regression (GSR)**
     * <ins>About</ins>: Removes the average fMRI signal across all the voxels in the brain under the assumption that the global signal mainly represents all the processes that confound the BOLD fMRI signals, including all instrumental, motion-related and physiological fluctuations.
     * <ins>Cons</ins>: Use of GSR has always been debated since the global signal also includes neuronal-related BOLD fluctuations.
       
 ### Respiration: Ventilation
-Respiratory effects may also be accounted for by using image-based data-driven methods, by extracting CSF and white matter time courses as regressors of no interest or by decomposing the data using PCA or ICA to find respiration-related components. More recently, machine learning and deep learning models are also being applied to infer respiratory information based on fMRI spatiotemporal patterns (Bayrak et al., 2020; Addeh et al., 2023).
+Respiratory effects may also be accounted for by using image-based data-driven methods, by extracting CSF and WM time courses as regressors of no interest or by decomposing the data using PCA or ICA to find respiration-related components. More recently, machine learning and deep learning models are also being applied to infer respiratory information based on fMRI spatiotemporal patterns (Bayrak et al., 2020; Addeh et al., 2023).
 
