@@ -7,7 +7,7 @@ This section will help you navigate the following questions:
   
 When establishing a physiological monitoring setup, it is essential to follow a systematic approach. Once you have identified the signals you intend to capture, and prior to initiating data collection from a subject, it is imperative to ensure that all necessary checks from the essentials list have been completed.
 
-You will require **peripheral devices**, typically attached to the subject, and **recording devices** (often connected to a computer/laptop) for data acquisition and storage. Post-recording, it is crucial to accurately track events corresponding to both physiological and neuroimaging recordings at equivalent time points. Moreover, additional **synchronization** may be necessary, unless it is already integrated into the software you are utilizing. 
+You will require **peripheral devices**, typically attached to the subject, and **recording devices** (often connected to a computer/laptop) for data acquisition and storage. Moreover, additional **synchronization** may be necessary, unless it is already integrated into the software you are utilizing. Post-recording, it is crucial to accurately track events corresponding to both physiological and neuroimaging recordings at equivalent time points.  
 
 In the context of a **neuroimaging experiment conducted within an MRI environment,** it is vital to keep all non-MRI-compatible devices outside the scanner room (ex. long cables may be employed for this purpose). Additionally, even if the peripheral and recording devices are MRI-compatible, it is advisable to inspect physiological and neuroimaging recordings for interference artifacts during pilot sessions aimed at optimizing the overall setup. 
 
