@@ -60,7 +60,6 @@ Community Practices for Collecting Physiological Data
       Setup <phys_set_up>
       Data Collection <collect_phys>
       Data Processing <process_phys>
-      Data Analysis <analyses_phys>
       References <references>
 
       Licence <https://github.com/physiopy/physiopy-community-guidelines?tab=CC-BY-SA-4.0-1-ov-file#readme>
