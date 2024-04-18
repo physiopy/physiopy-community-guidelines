@@ -3,7 +3,7 @@
 This section will help you navigate the following questions: 
 * How should I organize my data collection? 
 * Which physio signals do I want? 
-* What systems are there?
+* What systems do exist?
   
 When establishing a physiological monitoring setup, it is essential to follow a systematic approach. Once you have identified the signals you intend to capture, and prior to initiating data collection from a subject, it is imperative to ensure that all necessary checks from the essentials list have been completed.
 
