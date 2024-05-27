@@ -1,3 +1,15 @@
+# 2023.0.3 (Mon May 27 2024)
+
+#### ⚠️ Pushed to `master`
+
+- Update .zenodo.json ([@isesteves](https://github.com/isesteves))
+
+#### Authors: 1
+
+- [@isesteves](https://github.com/isesteves)
+
+---
+
 # 2023.0.2 (Mon May 27 2024)
 
 :tada: This release contains work from new contributors! :tada:
