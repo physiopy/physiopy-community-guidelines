@@ -17,5 +17,24 @@ The most common types of physiological data acquired within members of our commu
 ## When do we meet and how to get involved?
 We meet virtually on zoom the third Thursday of every month at 16:00 UTC. To receive emails about our monthly meetings and participate in defining the topics to be covered please email physiopy.community@gmail.com. We are always looking for new members and contributors so if interested, please join us!
 
+## Community Practices Meetings’ Contributors
+
+All the content of these Community Practices guidelines was compiled and reviewed by the authors cited below, presented in alphabetical order, who have also approved the current version presented on this website. 
+
+Johanna Bayer<sup>1</sup>, Roza G. Bayrak<sup>2</sup>, Rebecca G. Clements<sup>3,4</sup>, Ian D. Driver<sup>5</sup>, Inês Esteves<sup>6</sup>, Patrícia Figueiredo<sup>6</sup>, Daniel R. Glen<sup>7</sup>, Sarah E. Goodale<sup>8</sup>, Mary Miedema<sup>9</sup>, Stefano Moia<sup>10</sup>, Kevin Murphy<sup>5</sup>, Marie-Eve Piccard<sup>11</sup>, Joana Pinto<sup>12</sup>, Rachael C. Stickland<sup>13</sup>, Kristina M. Zvolanek<sup>3,4</sup>
+
+1. Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, Gelderland
+2. Computer Science, Vanderbilt University, Nashville, TN USA, 37235; 
+3. Department of Physical Therapy and Human Movement Sciences, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA; 
+4. Department of Biomedical Engineering, McCormick School of Engineering, Northwestern University, Evanston, IL, USA
+5. Cardiff University Brain Research Imaging Centre (CUBRIC), School of Physics and Astronomy, Cardiff University, Maindy Road, Cardiff, CF24 4HQ, Wales, UK; 
+6. Institute for Systems and Robotics - Lisboa and Department of Bioengineering, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, Portugal; 
+7. National Institute of Mental Health; 
+8. Department of Biomedical Engineering, Vanderbilt University, Nashville, 37208, TN, USA; 9. Department of Bioengineering, McGill University, Montreal, Canada; 
+10. Department of Cognitive Neuroscience, faculty of Psychology and Neuroscience, Maastricht University, Maastricht, 6211 KL, Limburg, The Netherlands; 
+11. Département Psychologie, Faculté des arts et des sciences, Université de Montréal, Montreal, H3C 3J7, Quebec, Canada Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montreal, H3W 1W4, Quebec, Canada; 
+12. Institute of Biomedical Engineering Department of Engineering Science, University of Oxford, Oxford, United Kingdom; 
+13. The Alan Turing Institute; 
+
 
 
