@@ -7,64 +7,76 @@
   
             "affiliation":"Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, Gelderland",
             "name":"Johanna Bayer"
-            
+        },
+        {
             "orcid":"0000-0002-7197-1248",
             "affiliation":"Computer Science, Vanderbilt University, Nashville, TN USA, 37235",
             "name":"Roza G. Bayrak"
-            
+        },
+        {
             "orcid":"0000-0002-4787-1124",
             "affiliation":"Department of Physical Therapy and Human Movement Sciences, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA; Department of Biomedical Engineering, McCormick School of Engineering, Northwestern University, Evanston, IL, USA",
             "name":"Rebecca G. Clements"
-            
+        },
+        {
             "orcid":"0000-0001-6815-0134",
             "affiliation":"Cardiff University Brain Research Imaging Centre (CUBRIC), School of Physics and Astronomy, Cardiff University, Maindy Road, Cardiff, CF24 4HQ, Wales, UK",
             "name":"Ian D. Driver"
-            
+        },
+        {
             "orcid":"0000-0002-7082-0026",
             "affiliation":"Institute for Systems and Robotics - Lisboa and Department of Bioengineering, Instituto Superior Técnico, Universidade de Lisboa,  Lisboa, Portugal",
             "name":"Inês Esteves"
-            
+        },
+        {
             "orcid":"0000-0002-0743-0869",
             "affiliation":"Institute for Systems and Robotics - Lisboa and Department of Bioengineering, Instituto Superior Técnico, Universidade de Lisboa,  Lisboa, Portugal",
             "name":"Patrícia Figueiredo"
-            
+        },
+        {
             "orcid":"0000-0001-8456-5647",
             "affiliation":"National Institute of Mental Health",
             "name":"Daniel R. Glen"
-            
+        },
+        {
             "orcid":"0000-0003-0460-6299",
             "affiliation":"Department of Biomedical Engineering, Vanderbilt University, Nashville, 37208, TN, USA",
             "name":"Sarah E. Goodale"
-            
+        },
+        {
             "orcid":"0009-0008-3263-731X",
             "affiliation":"Department of Bioengineering, McGill University, Montreal, Canada",
             "name":"Mary Miedema"
-            
+        },
+        {
             "orcid":"0000-0002-2553-3327",
             "affiliation":"Department of Cognitive Neuroscience, faculty of Psychology and Neuroscience, Maastricht University, Maastricht, 6211 KL, Limburg, The Netherlands",
             "name":"Stefano Moia"
-            
+        },
+        {
             "orcid":"0000-0002-6516-313X",
             "affiliation":"Cardiff University Brain Research Imaging Centre (CUBRIC), School of Physics and Astronomy, Cardiff University, Maindy Road, Cardiff, CF24 4HQ, Wales, UK",
             "name":"Kevin Murphy"
-            
+        },
+        {
             "orcid":"https://orcid.org/0009-0001-2412-7829",
             "affiliation":"Département Psychologie, Faculté des arts et des sciences, Université de Montréal, Montreal, H3C 3J7, Quebec, Canada; Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montreal, H3W 1W4, Quebec, Canada",
             "name":"Marie-Eve Picard"
-            
+        },
+        {
             "orcid":"0000-0002-6863-1883",
             "affiliation":"Institute of Biomedical Engineering Department of Engineering Science, University of Oxford, Oxford, United Kingdom",
             "name":"Joana Pinto"
-            
+        },
+        {
             "orcid":"0000-0003-3398-4272",
             "affiliation":"The Alan Turing Institute",
             "name":"Rachael C. Stickland"
-            
+        },
+        {
             "orcid":"https://orcid.org/0000-0003-2239-7902",
             "affiliation":"Department of Physical Therapy and Human Movement Sciences, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA; Department of Biomedical Engineering, McCormick School of Engineering, Northwestern University, Evanston, IL, USA",
             "name":"Kristina M. Zvolanek"
-
-
         }
     ],
     "access_right":"open"

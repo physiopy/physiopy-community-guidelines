@@ -1,0 +1,188 @@
+{
+  "projectName": "physiopy-community-guidelines",
+  "projectOwner": "physiopy",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "docs/source/physiopy_community.md",
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "likeajumprope",
+      "name": "Johanna Bayer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23728822?v=4",
+      "profile": "https://github.com/likeajumprope",
+      "contributions": [
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "rgbayrak",
+      "name": "Roza Gunes Bayrak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26470013?v=4",
+      "profile": "https://rgbayrak.github.io/",
+      "contributions": [
+        "doc",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "beccaclements99",
+      "name": "Becca Clements",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95257798?v=4",
+      "profile": "https://github.com/beccaclements99",
+      "contributions": [
+        "doc",
+        "ideas",
+        "question"
+      ]
+    },
+    {
+      "login": "isesteves",
+      "name": "isesteves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24605642?v=4",
+      "profile": "https://github.com/isesteves",
+      "contributions": [
+        "doc",
+        "content",
+        "projectManagement",
+        "ideas",
+        "review",
+        "question",
+        "mentoring",
+        "research"
+      ]
+    },
+    {
+      "login": "patriciampfigueiredo",
+      "name": "Patricia Figueiredo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66258495?v=4",
+      "profile": "https://github.com/patriciampfigueiredo",
+      "contributions": [
+        "review",
+        "ideas"
+      ]
+    },
+    {
+      "login": "afni-dglen",
+      "name": "Daniel Glen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10454715?v=4",
+      "profile": "https://github.com/afni-dglen",
+      "contributions": [
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "goodalse2019",
+      "name": "Sarah Goodale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60117796?v=4",
+      "profile": "https://github.com/goodalse2019",
+      "contributions": [
+        "doc",
+        "content",
+        "projectManagement",
+        "ideas",
+        "review",
+        "question",
+        "mentoring",
+        "research"
+      ]
+    },
+    {
+      "login": "m-miedema",
+      "name": "m-miedema",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39968233?v=4",
+      "profile": "https://github.com/m-miedema",
+      "contributions": [
+        "doc",
+        "ideas",
+        "review",
+        "question"
+      ]
+    },
+    {
+      "login": "smoia",
+      "name": "Stefano Moia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35300580?v=4",
+      "profile": "https://github.com/smoia",
+      "contributions": [
+        "eventOrganizing",
+        "ideas",
+        "infra",
+        "projectManagement",
+        "review",
+        "question"
+      ]
+    },
+    {
+      "login": "murphyk2",
+      "name": "murphyk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67392177?v=4",
+      "profile": "https://github.com/murphyk2",
+      "contributions": [
+        "ideas",
+        "talk",
+        "question",
+        "video"
+      ]
+    },
+    {
+      "login": "me-pic",
+      "name": "Marie-Eve Picard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77584086?v=4",
+      "profile": "https://github.com/me-pic",
+      "contributions": [
+        "doc",
+        "ideas",
+        "infra",
+        "review"
+      ]
+    },
+    {
+      "login": "joanacspinto",
+      "name": "joanacspinto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66967359?v=4",
+      "profile": "https://github.com/joanacspinto",
+      "contributions": [
+        "doc",
+        "content",
+        "ideas",
+        "question",
+        "review",
+        "research"
+      ]
+    },
+    {
+      "login": "RayStick",
+      "name": "Rachael Stickland",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50215726?v=4",
+      "profile": "https://github.com/RayStick",
+      "contributions": [
+        "ideas",
+        "eventOrganizing",
+        "infra",
+        "review"
+      ]
+    },
+    {
+      "login": "kristinazvolanek",
+      "name": "Kristina Zvolanek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54590158?v=4",
+      "profile": "https://github.com/kristinazvolanek",
+      "contributions": [
+        "ideas",
+        "question",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}

@@ -20,9 +20,9 @@ Community Practices for Collecting Physiological Data
    The latest version is |Latest version inline|.
 
 
-.. note::
+.. note:: How to cite
 
-   Full documentation is currently being screened for approval!
+   To cite these community guidelines, please refer to the latest zenodo DOI: |Latest DOI|
 
 
 
@@ -40,7 +40,7 @@ Community Practices for Collecting Physiological Data
 .. |Licensed CC-BY-SA 4.0| image:: https://img.shields.io/github/license/physiopy/physiopy-community-guidelines?style=flat&logo=apache
    :target: https://github.com/physiopy/physiopy-community-guidelines/blob/master/LICENSE
 
-.. |All Contributors| image:: https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat
+.. |All Contributors| image:: https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat
    :target: #contributors
 
 
@@ -55,7 +55,13 @@ Community Practices for Collecting Physiological Data
       :caption: Community Practices
       :maxdepth: 2
 
-      Community Practices <best_practices>
+      Community Practices Meetings <physiopy_community>
+      Motivation <physio_importance>
+      Setup <phys_set_up>
+      Data Collection <collect_phys>
+      Data Processing <process_phys>
+      References <references>
+
       Licence <https://github.com/physiopy/physiopy-community-guidelines?tab=CC-BY-SA-4.0-1-ov-file#readme>
       Changelog <https://github.com/physiopy/physiopy-community-guidelines/releases>
 

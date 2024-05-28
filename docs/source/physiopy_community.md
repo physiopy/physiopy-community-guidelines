@@ -1,38 +1,41 @@
-<!--(https://raw.githubusercontent.com/physiopy/phys2bids/master/docs/_static/physiopy_logo_small.png)-->
-<a name="readme"></a>
-<img alt="repository" src="https://raw.githubusercontent.com/physiopy/phys2bids/master/docs/_static/physiopy_logo_small.png" height="150">
+# 1. Physiopy Community and Community Practices Meetings
 
-This repository contains the source files for our community guidelines.
+Welcome to physiopy! We are an international community of volunteers that meet monthly to discuss methods development of our tools and to host discussions about Community Practices for physiological data acquisition, preprocessing, and analysis, in the scope of neuroimaging studies. The advice and recommendations presented in the following sections resulted from discussions conducted in previous Community Practices meetings and reflect the consensus reached by our community members. As these meetings are ongoing, we anticipate further updates and expansions in the future. 
 
-Find them at https://physiopy-community-guidelines.readthedocs.io/en/latest/
+Links to the lab’s websites of the members of our community are listed below if you wish to reach out with questions or look through any methods/analyses in their publications:
+* [Applied Neuro-Vascular Imaging Lab](https://www.brightlab.northwestern.edu/), Northwestern University (Chicago, IL) 
+* [AxonLab](https://www.axonlab.org) (Lausanne, Switzerland) 
+* [Biosignals & Systems Analysis Lab](https://sites.google.com/site/biosigsyslab/) (Montreal, Canada) 
+* [Bulte Group](https://eng.ox.ac.uk/biomedical-image-analysis/bulte-group/), IBME, University of Oxford (Oxford, UK) 
+* [Evolutionary Systems and Biomedical Engineering Lab](https://www.laseeb.org/home) (Lisbon, Portugal)  
+* [MIP:Lab](https://miplab.epfl.ch)  (Geneva, Switzerland) 
+* [Neuroimaging & Brain Dynamics Lab](https://www.cchanglab.net/) (Nashville, TN) 
 
+## What type of physiological data does the Physiopy Community work with?
+The most common types of physiological data acquired within members of our community are cardiac (photoplethysmogram (PPG) and electrocardiogram (ECG)) and respiratory, either ventilation (respiratory belt) and/or gas concentration (particularly expired CO2). Typically, these are obtained simultaneously with the acquisition of functional magnetic resonance imaging (fMRI) data, which is the most widely used neuroimaging technique in our community. However, in certain instances, electroencephalography (EEG) is also recorded.
 
-physiopy-community-guidelines
-=============================
+## When do we meet and how to get involved?
+We meet virtually on zoom the third Thursday of every month at 16:00 UTC. To receive emails about our monthly meetings and participate in defining the topics to be covered please email physiopy.community@gmail.com. We are always looking for new members and contributors so if interested, please join us!
 
-[![Latest version](https://img.shields.io/github/v/release/physiopy/physiopy-community-guidelines?style=flat&logo=github&sort=semver)](https://github.com/physiopy/physiopy-community-guidelines/releases)
-[![Release date](https://img.shields.io/github/release-date/physiopy/physiopy-community-guidelines?style=flat&logo=github)](https://github.com/physiopy/physiopy-community-guidelines/releases)
-[![Auto Release](https://img.shields.io/badge/release-auto.svg?style=flat&colorA=888888&colorB=9B065A&label=auto&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACzElEQVR4AYXBW2iVBQAA4O+/nLlLO9NM7JSXasko2ASZMaKyhRKEDH2ohxHVWy6EiIiiLOgiZG9CtdgG0VNQoJEXRogVgZYylI1skiKVITPTTtnv3M7+v8UvnG3M+r7APLIRxStn69qzqeBBrMYyBDiL4SD0VeFmRwtrkrI5IjP0F7rjzrSjvbTqwubiLZffySrhRrSghBJa8EBYY0NyLJt8bDBOtzbEY72TldQ1kRm6otana8JK3/kzN/3V/NBPU6HsNnNlZAz/ukOalb0RBJKeQnykd7LiX5Fp/YXuQlfUuhXbg8Di5GL9jbXFq/tLa86PpxPhAPrwCYaiorS8L/uuPJh1hZFbcR8mewrx0d7JShr3F7pNW4vX0GRakKWVk7taDq7uPvFWw8YkMcPVb+vfvfRZ1i7zqFwjtmFouL72y6C/0L0Ie3GvaQXRyYVB3YZNE32/+A/D9bVLcRB3yw3hkRCdaDUtFl6Ykr20aaLvKoqIXUdbMj6GFzAmdxfWx9iIRrkDr1f27cFONGMUo/gRI/jNbIMYxJOoR1cY0OGaVPb5z9mlKbyJP/EsdmIXvsFmM7Ql42nEblX3xI1BbYbTkXCqRnxUbgzPo4T7sQBNeBG7zbAiDI8nWfZDhQWYCG4PFr+HMBQ6l5VPJybeRyJXwsdYJ/cRnlJV0yB4ZlUYtFQIkMZnst8fRrPcKezHCblz2IInMIkPzbbyb9mW42nWInc2xmE0y61AJ06oGsXL5rcOK1UdCbEXiVwNXsEy/6+EbaiVG8eeEAfxvaoSBnCH61uOD7BS1Ul8ESHBKWxCrdyd6EYNKihgEVrwOAbQruoytuBYIFfAc3gVN6iawhjKyNCEpYhVJXgbOzARyaU4hCtYizq5EI1YgiUoIlT1B7ZjByqmRWYbwtdYjoWoN7+LOIQefIqKawLzK6ID69GGpQgwhhEcwGGUzfEPAiPqsCXadFsAAAAASUVORK5CYII=)](https://github.com/intuit/auto)
+## Community Practices Meetings’ Contributors ✨
 
-[![See the documentation at: https://physiopy-community-guidelines.readthedocs.io](https://img.shields.io/badge/docs-read%20latest-informational?style=flat&logo=readthedocs)](https://physiopy-community-guidelines.readthedocs.io/en/latest/?badge=latest)
-<!-- [![Latest DOI](https://zenodo.org/badge/<doi>.svg)](https://zenodo.org/badge/latestdoi/<doi>) -->
-<!-- [![Licensed Apache 2.0](https://img.shields.io/github/license/physiopy/physiopy-community-guidelines?style=flat&logo=apache)](https://github.com/physiopy/physiopy-community-guidelines/blob/master/LICENSE) -->
+All the content of these Community Practices guidelines was compiled and reviewed by the authors cited below, presented in alphabetical order, who have also approved the current version presented on this website. 
 
-[![Documentation Status](https://img.shields.io/readthedocs/physiopy-community-guidelines?style=flat&label=readthedocs&logo=readthedocs)](https://physiopy-community-guidelines.readthedocs.io/en/latest/?badge=latest)
-[![Latest version](https://img.shields.io/pypi/v/physiopy-community-guidelines?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/physiopy-community-guidelines/)
-[![Auto Release](https://img.shields.io/badge/release-auto.svg?colorA=888888&colorB=9B065A&label=auto)](https://github.com/intuit/auto)
+Johanna Bayer<sup>1</sup>, Roza G. Bayrak<sup>2</sup>, Rebecca G. Clements<sup>3,4</sup>, Ian D. Driver<sup>5</sup>, Inês Esteves<sup>6</sup>, Patrícia Figueiredo<sup>6</sup>, Daniel R. Glen<sup>7</sup>, Sarah E. Goodale<sup>8</sup>, Mary Miedema<sup>9</sup>, Stefano Moia<sup>10</sup>, Kevin Murphy<sup>5</sup>, Marie-Eve Piccard<sup>11</sup>, Joana Pinto<sup>12</sup>, Rachael C. Stickland<sup>13</sup>, Kristina M. Zvolanek<sup>3,4</sup>
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+1. Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, Gelderland
+2. Computer Science, Vanderbilt University, Nashville, TN USA, 37235; 
+3. Department of Physical Therapy and Human Movement Sciences, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA; 
+4. Department of Biomedical Engineering, McCormick School of Engineering, Northwestern University, Evanston, IL, USA
+5. Cardiff University Brain Research Imaging Centre (CUBRIC), School of Physics and Astronomy, Cardiff University, Maindy Road, Cardiff, CF24 4HQ, Wales, UK; 
+6. Institute for Systems and Robotics - Lisboa and Department of Bioengineering, Instituto Superior Técnico, Universidade de Lisboa, Lisboa, Portugal; 
+7. National Institute of Mental Health; 
+8. Department of Biomedical Engineering, Vanderbilt University, Nashville, 37208, TN, USA; 9. Department of Bioengineering, McGill University, Montreal, Canada; 
+10. Department of Cognitive Neuroscience, faculty of Psychology and Neuroscience, Maastricht University, Maastricht, 6211 KL, Limburg, The Netherlands; 
+11. Département Psychologie, Faculté des arts et des sciences, Université de Montréal, Montreal, H3C 3J7, Quebec, Canada Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CRIUGM), Montreal, H3W 1W4, Quebec, Canada; 
+12. Institute of Biomedical Engineering Department of Engineering Science, University of Oxford, Oxford, United Kingdom; 
+13. The Alan Turing Institute; 
 
-> If you use ``physiopy-community-guidelines`` in your work, please support it by citing the zenodo DOI of the version you used. You can find the latest version [here](https://doi.org/10.5281/zenodo.3470091)
-
-
-
-**We're looking for documentation contributors,** but any suggestion/bug report is welcome! Feel free to open issues!
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## Contributors ✨
 
@@ -67,9 +70,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-License
--------
-
-Copyright 2019-2024, The Physiopy Community
-This repository and all its content are licensed under the CC-BY-SA-4.0 license.
