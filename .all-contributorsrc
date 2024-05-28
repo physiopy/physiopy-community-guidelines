@@ -157,6 +157,18 @@
         "review",
         "research"
       ]
+    },
+    {
+      "login": "RayStick",
+      "name": "Rachael Stickland",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50215726?v=4",
+      "profile": "https://github.com/RayStick",
+      "contributions": [
+        "ideas",
+        "eventOrganizing",
+        "infra",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
