@@ -1,6 +1,6 @@
 .. physiopy-community-guidelines documentation master file, created by
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
    sphinx-quickstart on Thu Feb  1 13:49:17 2024.
    You can adapt this file completely to your liking, but it should at least
@@ -95,6 +95,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/patriciampfigueiredo"><img src="https://avatars.githubusercontent.com/u/66258495?v=4?s=100" width="100px;" alt="Patricia Figueiredo"/><br /><sub><b>Patricia Figueiredo</b></sub></a><br /><a href="https://github.com/physiopy/physiopy-community-guidelines/pulls?q=is%3Apr+reviewed-by%3Apatriciampfigueiredo" title="Reviewed Pull Requests">👀</a> <a href="#ideas-patriciampfigueiredo" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/afni-dglen"><img src="https://avatars.githubusercontent.com/u/10454715?v=4?s=100" width="100px;" alt="Daniel Glen"/><br /><sub><b>Daniel Glen</b></sub></a><br /><a href="#ideas-afni-dglen" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/physiopy/physiopy-community-guidelines/pulls?q=is%3Apr+reviewed-by%3Aafni-dglen" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/goodalse2019"><img src="https://avatars.githubusercontent.com/u/60117796?v=4?s=100" width="100px;" alt="Sarah Goodale"/><br /><sub><b>Sarah Goodale</b></sub></a><br /><a href="https://github.com/physiopy/physiopy-community-guidelines/commits?author=goodalse2019" title="Documentation">📖</a> <a href="#content-goodalse2019" title="Content">🖋</a> <a href="#projectManagement-goodalse2019" title="Project Management">📆</a> <a href="#ideas-goodalse2019" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/physiopy/physiopy-community-guidelines/pulls?q=is%3Apr+reviewed-by%3Agoodalse2019" title="Reviewed Pull Requests">👀</a> <a href="#question-goodalse2019" title="Answering Questions">💬</a> <a href="#mentoring-goodalse2019" title="Mentoring">🧑‍🏫</a> <a href="#research-goodalse2019" title="Research">🔬</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/m-miedema"><img src="https://avatars.githubusercontent.com/u/39968233?v=4?s=100" width="100px;" alt="m-miedema"/><br /><sub><b>m-miedema</b></sub></a><br /><a href="https://github.com/physiopy/physiopy-community-guidelines/commits?author=m-miedema" title="Documentation">📖</a> <a href="#ideas-m-miedema" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/physiopy/physiopy-community-guidelines/pulls?q=is%3Apr+reviewed-by%3Am-miedema" title="Reviewed Pull Requests">👀</a> <a href="#question-m-miedema" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
