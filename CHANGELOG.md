@@ -1,3 +1,17 @@
+# 2024.0.0 (Tue May 28 2024)
+
+#### 💥 Breaking Change
+
+- Community practices documentation first version [#3](https://github.com/physiopy/physiopy-community-guidelines/pull/3) ([@beccaclements99](https://github.com/beccaclements99) [@smoia](https://github.com/smoia) [@isesteves](https://github.com/isesteves))
+
+#### Authors: 3
+
+- [@isesteves](https://github.com/isesteves)
+- Becca Clements ([@beccaclements99](https://github.com/beccaclements99))
+- Stefano Moia ([@smoia](https://github.com/smoia))
+
+---
+
 # 2023.0.3 (Mon May 27 2024)
 
 #### ⚠️ Pushed to `master`
