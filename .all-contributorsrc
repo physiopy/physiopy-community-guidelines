@@ -19,6 +19,17 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "rgbayrak",
+      "name": "Roza Gunes Bayrak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26470013?v=4",
+      "profile": "https://rgbayrak.github.io/",
+      "contributions": [
+        "doc",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
