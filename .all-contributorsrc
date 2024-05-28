@@ -41,6 +41,22 @@
         "ideas",
         "question"
       ]
+    },
+    {
+      "login": "isesteves",
+      "name": "isesteves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24605642?v=4",
+      "profile": "https://github.com/isesteves",
+      "contributions": [
+        "doc",
+        "content",
+        "projectManagement",
+        "ideas",
+        "review",
+        "question",
+        "mentoring",
+        "research"
+      ]
     }
   ],
   "contributorsPerLine": 7,
