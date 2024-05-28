@@ -30,6 +30,17 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "beccaclements99",
+      "name": "Becca Clements",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95257798?v=4",
+      "profile": "https://github.com/beccaclements99",
+      "contributions": [
+        "doc",
+        "ideas",
+        "question"
+      ]
     }
   ],
   "contributorsPerLine": 7,

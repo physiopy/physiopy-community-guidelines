@@ -1,6 +1,6 @@
 .. physiopy-community-guidelines documentation master file, created by
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
    sphinx-quickstart on Thu Feb  1 13:49:17 2024.
    You can adapt this file completely to your liking, but it should at least
@@ -90,6 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/likeajumprope"><img src="https://avatars.githubusercontent.com/u/23728822?v=4?s=100" width="100px;" alt="Johanna Bayer"/><br /><sub><b>Johanna Bayer</b></sub></a><br /><a href="#ideas-likeajumprope" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/physiopy/physiopy-community-guidelines/pulls?q=is%3Apr+reviewed-by%3Alikeajumprope" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://rgbayrak.github.io/"><img src="https://avatars.githubusercontent.com/u/26470013?v=4?s=100" width="100px;" alt="Roza Gunes Bayrak"/><br /><sub><b>Roza Gunes Bayrak</b></sub></a><br /><a href="https://github.com/physiopy/physiopy-community-guidelines/commits?author=rgbayrak" title="Documentation">📖</a> <a href="#ideas-rgbayrak" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/physiopy/physiopy-community-guidelines/pulls?q=is%3Apr+reviewed-by%3Argbayrak" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/beccaclements99"><img src="https://avatars.githubusercontent.com/u/95257798?v=4?s=100" width="100px;" alt="Becca Clements"/><br /><sub><b>Becca Clements</b></sub></a><br /><a href="https://github.com/physiopy/physiopy-community-guidelines/commits?author=beccaclements99" title="Documentation">📖</a> <a href="#ideas-beccaclements99" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-beccaclements99" title="Answering Questions">💬</a></td>
     </tr>
   </tbody>
 </table>
