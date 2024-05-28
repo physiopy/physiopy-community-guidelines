@@ -67,6 +67,16 @@
         "review",
         "ideas"
       ]
+    },
+    {
+      "login": "afni-dglen",
+      "name": "Daniel Glen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10454715?v=4",
+      "profile": "https://github.com/afni-dglen",
+      "contributions": [
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
