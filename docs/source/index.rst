@@ -40,7 +40,7 @@ Community Practices for Collecting Physiological Data
 .. |Licensed CC-BY-SA 4.0| image:: https://img.shields.io/github/license/physiopy/physiopy-community-guidelines?style=flat&logo=apache
    :target: https://github.com/physiopy/physiopy-community-guidelines/blob/master/LICENSE
 
-.. |All Contributors| image:: https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat
+.. |All Contributors| image:: https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat
    :target: #contributors
 
 

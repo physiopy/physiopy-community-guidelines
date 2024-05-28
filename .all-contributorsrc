@@ -4,7 +4,8 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
-    "docs/source/physiopy_community.md"
+    "docs/source/physiopy_community.md",
+    "README.md"
   ],
   "imageSize": 100,
   "commit": true,
