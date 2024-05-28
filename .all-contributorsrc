@@ -77,6 +77,22 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "goodalse2019",
+      "name": "Sarah Goodale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60117796?v=4",
+      "profile": "https://github.com/goodalse2019",
+      "contributions": [
+        "doc",
+        "content",
+        "projectManagement",
+        "ideas",
+        "review",
+        "question",
+        "mentoring",
+        "research"
+      ]
     }
   ],
   "contributorsPerLine": 7,
