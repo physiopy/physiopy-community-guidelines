@@ -20,9 +20,9 @@ Community Practices for Collecting Physiological Data
    The latest version is |Latest version inline|.
 
 
-.. note::
+.. note:: How to cite
 
-   Full documentation is currently being screened for approval!
+   To cite these community guidelines, please refer to the latest zenodo DOI: |Latest DOI|
 
 
 
