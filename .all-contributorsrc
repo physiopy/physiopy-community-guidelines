@@ -131,6 +131,18 @@
         "question",
         "video"
       ]
+    },
+    {
+      "login": "me-pic",
+      "name": "Marie-Eve Picard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77584086?v=4",
+      "profile": "https://github.com/me-pic",
+      "contributions": [
+        "doc",
+        "ideas",
+        "infra",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
