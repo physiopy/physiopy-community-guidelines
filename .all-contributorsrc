@@ -119,6 +119,18 @@
         "review",
         "question"
       ]
+    },
+    {
+      "login": "murphyk2",
+      "name": "murphyk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67392177?v=4",
+      "profile": "https://github.com/murphyk2",
+      "contributions": [
+        "ideas",
+        "talk",
+        "question",
+        "video"
+      ]
     }
   ],
   "contributorsPerLine": 7,
