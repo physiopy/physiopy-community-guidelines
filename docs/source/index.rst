@@ -35,8 +35,8 @@ Community Practices for Collecting Physiological Data
 
 .. |Documentation Status| image:: https://img.shields.io/readthedocs/physiopy-community-guidelines?style=flat&label=readthedocs&logo=readthedocs
    :target: https://physiopy-community-guidelines.readthedocs.io/en/latest/?badge=latest
-.. |Latest DOI| image:: https://zenodo.org/
-   :target: https://zenodo.org/
+.. |Latest DOI| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.11373723.svg
+  :target: https://doi.org/10.5281/zenodo.11373723
 .. |Licensed CC-BY-SA 4.0| image:: https://img.shields.io/github/license/physiopy/physiopy-community-guidelines?style=flat&logo=apache
    :target: https://github.com/physiopy/physiopy-community-guidelines/blob/master/LICENSE
 
