@@ -1,3 +1,15 @@
+# 2024.0.1 (Wed Jun 19 2024)
+
+#### 🐛 Bug Fix
+
+- fix: Fix Zenodo DOI ([@smoia](https://github.com/smoia))
+
+#### Authors: 1
+
+- Stefano Moia ([@smoia](https://github.com/smoia))
+
+---
+
 # 2024.0.0 (Tue May 28 2024)
 
 #### 💥 Breaking Change
