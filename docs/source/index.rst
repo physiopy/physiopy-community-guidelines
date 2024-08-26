@@ -71,6 +71,6 @@ Community Practices for Collecting Physiological Data
 
       The Physiopy Community <https://physiopy.github.io/>
       The Team <https://physiopy.github.io/community/team/>
-      How to Contribute <https://physiopy.github.io/community/gettingstarted/>
-      Contributor Guide <https://physiopy.github.io/community/contributor-guide/>
+      How to Contribute <https://physiopy.github.io/contributors-guide/getting-started/>
+      Contributor Guide <https://physiopy.github.io/contributors-guide/>
       Code of Conduct <https://physiopy.github.io/community/CODE_OF_CONDUCT/>
