@@ -2,7 +2,7 @@
 <a name="readme"></a>
 <img alt="repository" src="https://raw.githubusercontent.com/physiopy/phys2bids/master/docs/_static/physiopy_logo_small.png" height="150">
 
-This repository contains the source files for our community guidelines.
+This repository contains the source files for our community guidelines on collecting physiological data. 
 
 Find them at https://physiopy-community-guidelines.readthedocs.io/en/latest/
 
