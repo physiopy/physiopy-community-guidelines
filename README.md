@@ -68,6 +68,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+Compiling locally
+-----------------
+
+To build the documentation locally, please refer to the [building documentation section](https://physiopy.github.io/contributors-guide/documentation/building/) of the Physiopy contributor's guide.
+
 License
 -------
 
