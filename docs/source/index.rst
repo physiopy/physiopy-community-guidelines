@@ -8,7 +8,7 @@ Community Practices for Collecting Physiological Data
 
 |Latest version| |Release date| |Auto Release|
 
-|Documentation Status| |Latest DOI| |Licensed CC-BY-SA 4.0|
+|Documentation Status| |Latest DOI| |Licensed CC-BY-SA 4.0|How long did it take from the submission of the
 
 |All Contributors|
 
@@ -60,6 +60,7 @@ Community Practices for Collecting Physiological Data
       Setup <phys_set_up>
       Data Collection <collect_phys>
       Data Processing <process_phys>
+      Data Quality <qa_qc>
       References <references>
 
       Licence <https://github.com/physiopy/physiopy-community-guidelines?tab=CC-BY-SA-4.0-1-ov-file#readme>
