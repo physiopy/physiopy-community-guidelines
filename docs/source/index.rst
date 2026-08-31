@@ -8,7 +8,7 @@ Community Practices for Collecting Physiological Data
 
 |Latest version| |Release date| |Auto Release|
 
-|Documentation Status| |Latest DOI| |Licensed CC-BY-SA 4.0|How long did it take from the submission of the
+|Documentation Status| |Latest DOI| |Licensed CC-BY-SA 4.0|
 
 |All Contributors|
 
